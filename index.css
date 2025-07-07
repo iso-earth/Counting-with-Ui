@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(200, 203, 197);
+    height: 100vh;
+    margin: 0;
+}
+.CounterLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: relative;
+    top: 0.1em;
+}
+
+
+.IncreaseBtn{
+    padding: 0.5em;
+    background-color: rgb(62, 255, 4);
+    border-radius: 5em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 15em;
+    margin-left: -1em;
+}
+.ResetBtn{
+    padding: 0.5em;
+    background-color: aqua;
+    border-radius: 5em;
+    transition: background-color 0.25s;
+    cursor: pointer; 
+    position: relative;
+    top: -2em;
+    margin-left: 1.5em;
+}
+.DecreaseBtn{
+    padding: 0.5em;
+    background-color: rgb(255, 4, 0);
+    border-radius: 5em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    position: relative;
+    top: -2.5em;
+    left: 13em;
+
+
+}
+
+.Buttons:hover{
+    background-color: rgb(51, 253, 142);
+}
+
+
+
+#Main-body{
+    background-color: rgb(255, 255, 255);
+    width: 30em;
+    height: 50em;
+    margin: 0 auto;
+    margin-top: 1em;
+    border: 5px solid rgba(185, 185, 185, 0.601);
+    border-radius: 4em;
+    box-shadow: 0 0 10em rgba(0, 0, 0, 0.697);
+}
+
+#Camera{
+    background-color: rgb(63, 63, 63);
+    width: 2em;
+    height: 2em;
+    border-radius: 5em;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: -47.1em;
+}
+#Camera i{
+    color: rgba(108, 90, 90, 0.193);
+    font-size: 1.5em;
+    margin-top: 0.3vh;
+    margin-left: 0.8vh;
+}
+
+#Speaker{
+    width: 7em;
+    height: 0.7em;
+    border-radius: 7vh;
+    margin: 0 auto;
+    margin-top: 1em;
+    background-color: rgb(67, 65, 65);
+    border: 1px solid rgba(0, 0, 0, 0.375);
+}
+
+#mic{
+    background-color: black;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 5em;
+    border: 2px solid rgb(162, 162, 162);
+    margin: 0 auto;
+    margin-left: 8.5em;
+    margin-top: -0.9em;
+}
+
+#HomeBtn{
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    border-radius: 2em;
+    border: 2px solid rgb(162, 162, 162);
+
+    margin: 0 auto;
+    margin-top: 22em;
+}
+
+i{
+    margin-left: 0.6em;
+    margin-top: 0.6em;
+    font-size: 1.3em;
+}
+
+#Screen{
+    width: 29em;
+    height: 37em;
+    margin-top: -8em;
+    margin-left: 0.5em;
+    background-color: hwb(182 0% 22%);
+    border-radius: 0.3em;
+}
+
+#Content{
+    width: 15em;
+    height: 15em;
+    background-color: rgb(76, 249, 214);
+    border-radius: 50em;
+    border: 9px solid white;
+    margin: 15em auto;
+    position: relative;
+    top: 5em;
+}
